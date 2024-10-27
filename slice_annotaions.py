@@ -1,3 +1,5 @@
+# AS in the dataset you will get one annotations file which you have to divide in 160 for training and 40 for testing , 
+# so this piece of code will help you do that .
 import json
 
  # Path to your original annotations file Train/Validation
