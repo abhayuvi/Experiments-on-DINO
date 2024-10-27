@@ -19,12 +19,13 @@ Instructions:-
 
 - setup the dataset in COCODIR format , As:-
 
-  COCODIR/
+COCODIR/
   ├── train2017/
   ├── val2017/
   └── annotations/
   	├── instances_train2017.json
   	└── instances_val2017.json
+
 
 - After setting up the directory and repository , Evaluate the model on the validation set and visualize the Results.
 
