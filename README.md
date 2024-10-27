@@ -1,4 +1,4 @@
-This Repository is made to experiment with DINO object Detection pretrained model https://github.com/IDEA-Research/DINO?tab=readme-ov-file .
+This Repository is made to experiment with DINO object Detection pretrained model ( https://github.com/IDEA-Research/DINO?tab=readme-ov-file ).
 Here, DINO object Detection pre-trained model is been fine-tuned on pedestrian dataset collected within the IIT Delhi Campus.
 
 - As macos does not come with Nvidia 'CuDa' , so the code is written in the Google colab environment.
