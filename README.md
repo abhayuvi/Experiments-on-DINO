@@ -38,3 +38,7 @@ Instructions:-
       --pretrain_model_path /path/to/a/pretrianed/model. specify a pre-trained model.
       --finetune_ignore label_enc.weight class_embed. ignore some inconsistent parameters.
 
+
+
+After completing every steps , i made a small report which states the model working , analysis , challenges faced... 
+link:- 
