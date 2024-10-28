@@ -3,7 +3,7 @@ Here, DINO object Detection pre-trained model is been fine-tuned on pedestrian d
 
 - As macos does not come with Nvidia 'CuDa' , so the code is written in the Google colab environment.
 
-#Instructions:-
+# Instructions:-
 
 - Get access to GPU .
   
