@@ -44,12 +44,12 @@ Here, DINO object Detection pre-trained model is been fine-tuned on pedestrian d
 link:- [Report on DINO](https://docs.google.com/document/d/1mD_nRejf79o-b4RCWiVae7XnUi2stnjuzl4GtM3n3Yw/edit?usp=sharing)**
 
 
-#Experiments done:-
+## Experiments done:-
 
 - changed the weights of the pre-trained model.
 - changed parameters like : `num_classes`   `dn_labebook_size`   `name_id`
 
-#Files:-
+## Files:-
 1. **DINO.ipynb** :- This python file is the main file where i performed the task.
 2. **slice_annotaions.py** :- With the help of this file one can slice the annotations in two part `training`  `validation`
 3. **loss_graphs.py** :- This python file conisist of code which can help to generate the loss graph while fine-tuning the model.
