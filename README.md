@@ -41,7 +41,7 @@ Instructions:-
 
 
 After completing every steps , i made a small report which states the model working , analysis , challenges faced... 
-link:- [Google Drive Link]()
+link:- [Report on DINO]()
 
 
 Experiments done:- 
