@@ -46,4 +46,4 @@ link:-
 
 Experiments done:- 
 - changed the weights of the pre-trained model.
-- changed parameters like :- ''num_classes''
+- changed parameters like :- 'num_classes'
