@@ -42,3 +42,8 @@ Instructions:-
 
 After completing every steps , i made a small report which states the model working , analysis , challenges faced... 
 link:- 
+
+
+Experiments done:- 
+- changed the weights of the pre-trained model.
+- changed parameters like :- ''num_classes''
