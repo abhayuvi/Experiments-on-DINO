@@ -1,7 +1,7 @@
 This Repository is made to experiment with DINO object Detection pretrained model [Link]( https://github.com/IDEA-Research/DINO?tab=readme-ov-file ).
 Here, DINO object Detection pre-trained model is been fine-tuned on pedestrian dataset collected within the IIT Delhi Campus.
 
-- As macos does not come with Nvidia 'CuDa' , so the code is written in the Google colab environment.
+- As macos does not come with Nvidia `CuDa` , so the code is written in the Google colab environment.
 
 # Instructions:-
 
@@ -13,9 +13,9 @@ Here, DINO object Detection pre-trained model is been fine-tuned on pedestrian d
   
 - this will require yaml version 0.31.0 , so install it through this command. '!pip install yapf==0.31.0'
 
-- Download the pre-trained DINO-4scale model with the ResNet-50 (R50) from [DINO](https://drive.google.com/drive/folders/1qD5m1NmK0kjE5hh-G17XUX751WsEG-h_)
+- Download the pre-trained DINO-4scale model with the ResNet-50 (R50) from [Here](https://drive.google.com/drive/folders/1qD5m1NmK0kjE5hh-G17XUX751WsEG-h_)
 
-- Download the Pedestrain dataset from [Dataset](https://drive.google.com/drive/folders/1DCpmo919b7OrAng9clEbiMHjO3D0hyoa?usp=sharing)
+- Download the Pedestrain dataset from [Here](https://drive.google.com/drive/folders/1DCpmo919b7OrAng9clEbiMHjO3D0hyoa?usp=sharing)
 
 - setup the dataset in COCODIR format , As:-
 
@@ -31,17 +31,17 @@ Here, DINO object Detection pre-trained model is been fine-tuned on pedestrian d
 
 - Train / Fine-Tune the model with the training set and Re-evaluate the model and note the changes .
 
-- One will need to make changes in the config file (DINO/config/DINO_4scale.py) to fine-tune it .
+- One will need to make changes in the config file `DINO/config/DINO_4scale.py` to fine-tune it .
 
-- To leverage our pre-trained models for model fine-tuning, we suggest add two more commands in a bash:
+- To leverage the pre-trained models for model fine-tuning, i suggest add two more commands in a bash:
 
       --pretrain_model_path /path/to/a/pretrianed/model. specify a pre-trained model.
       --finetune_ignore label_enc.weight class_embed. ignore some inconsistent parameters.
 
 
 
-**After completing every steps , i made a small report which states the model working , analysis , challenges faced... 
-link:- [Report on DINO](https://docs.google.com/document/d/1mD_nRejf79o-b4RCWiVae7XnUi2stnjuzl4GtM3n3Yw/edit?usp=sharing)**
+**After completing every steps , i made a small report which states the model working , analysis , challenges faced. 
+LINK:- [Report on DINO](https://docs.google.com/document/d/1mD_nRejf79o-b4RCWiVae7XnUi2stnjuzl4GtM3n3Yw/edit?usp=sharing)**
 
 
 ## Experiments done:-
