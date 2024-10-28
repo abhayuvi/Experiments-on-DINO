@@ -49,4 +49,10 @@ link:- [Report on DINO](https://docs.google.com/document/d/1mD_nRejf79o-b4RCWiVa
 - changed the weights of the pre-trained model.
 - changed parameters like : `num_classes`   `dn_labebook_size`   `name_id`
 
+#Files:-
+1. **DINO.ipynb** :- This python file is the main file where i performed the task.
+2. **slice_annotaions.py** :- With the help of this file one can slice the annotations in two part `training`  `validation`
+3. **loss_graphs.py** :- This python file conisist of code which can help to generate the loss graph while fine-tuning the model.
+4. **Attention_map.py** :- through this file one can generate the attention map of input images while going through training/fine-tuning.
+
 
