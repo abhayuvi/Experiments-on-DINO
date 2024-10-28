@@ -41,7 +41,7 @@ Here, DINO object Detection pre-trained model is been fine-tuned on pedestrian d
 
 
 **After completing every steps , i made a small report which states the model working , analysis , challenges faced... 
-link:- [Report on DINO]()**
+link:- [Report on DINO](https://docs.google.com/document/d/1mD_nRejf79o-b4RCWiVae7XnUi2stnjuzl4GtM3n3Yw/edit?usp=sharing)**
 
 
 #Experiments done:-
