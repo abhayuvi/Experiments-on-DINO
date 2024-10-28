@@ -11,7 +11,7 @@ Here, DINO object Detection pre-trained model is been fine-tuned on pedestrian d
   
 - Install the dependencies and test the setup.
   
-- this will require yaml version 0.31.0 , so install it through this command. '!pip install yapf==0.31.0'
+- this will require yaml version 0.31.0 , so install it through this command. `!pip install yapf==0.31.0`
 
 - Download the pre-trained DINO-4scale model with the ResNet-50 (R50) from [Here](https://drive.google.com/drive/folders/1qD5m1NmK0kjE5hh-G17XUX751WsEG-h_)
 
@@ -47,11 +47,11 @@ LINK:- [Report on DINO](https://docs.google.com/document/d/1mD_nRejf79o-b4RCWiVa
 ## Experiments done:-
 
 - changed the weights of the pre-trained model.
-- changed parameters like : `num_classes`   `dn_labebook_size`   `name_id`
+- changed parameters like : `num_classes`  , `dn_labebook_size`  ,  `name_id`
 
 ## Files:-
 1. **DINO.ipynb** :- This python file is the main file where i performed the task.
-2. **slice_annotaions.py** :- With the help of this file one can slice the annotations in two part `training`  `validation`
+2. **slice_annotaions.py** :- With the help of this file one can slice the annotations in two part `training` and `validation`
 3. **loss_graphs.py** :- This python file conisist of code which can help to generate the loss graph while fine-tuning the model.
 4. **Attention_map.py** :- through this file one can generate the attention map of input images while going through training/fine-tuning.
 
